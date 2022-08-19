@@ -1,0 +1,7 @@
+f=open('data.text','w')
+f.write("hello")
+f=open('data.text','a')
+f.append('world')
+f=open('data.text','r')
+f.read()
+f.close()
